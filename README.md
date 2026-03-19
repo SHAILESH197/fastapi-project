@@ -1,32 +1,23 @@
-# 🚀 Inventory Management System API
-
-A high-performance and scalable **Inventory Management REST API** built using FastAPI.
+Inventory Management System API
+A high-performance and scalable Inventory Management REST API built using FastAPI.
 This project is designed with a clean architecture approach to ensure maintainability, modularity, and real-world usability.
 
----
-
-## 🌟 Overview
+Overview
 
 This API allows users to efficiently manage inventory items with complete CRUD functionality.
 It follows best practices like separation of concerns, layered architecture, and schema validation.
 
----
+Key Features
 
-## ⚡ Key Features
+Create, Read, Update, Delete (CRUD) operations
+Clean and modular project structure
+FastAPI for high-speed performance
+SQLAlchemy ORM for database interaction
+Pydantic for data validation
+Interactive API docs (Swagger UI)
+Scalable architecture (production-ready base)
 
-✔️ Create, Read, Update, Delete (CRUD) operations
-✔️ Clean and modular project structure
-✔️ FastAPI for high-speed performance
-✔️ SQLAlchemy ORM for database interaction
-✔️ Pydantic for data validation
-✔️ Interactive API docs (Swagger UI)
-✔️ Scalable architecture (production-ready base)
-
----
-
-## 🏗️ Project Architecture
-
-```
+roject Architecture
 Inventory_management/
 │
 ├── app/
@@ -40,112 +31,44 @@ Inventory_management/
 ├── main.py              # Application entry point
 ├── inventory.db         # SQLite database
 └── requirements.txt     # Project dependencies
-```
 
----
+Tech Stack
 
-## 🧠 Tech Stack
+Backend: FastAPI
+Language: Python 3.13
+Database: SQLite
+ORM: SQLAlchemy
+Validation: Pydantic
 
-* **Backend:** FastAPI
-* **Language:** Python 3.13
-* **Database:** SQLite
-* **ORM:** SQLAlchemy
-* **Validation:** Pydantic
-
----
-
-## ⚙️ Setup Instructions
-
-### 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
-```
-
-### 2️⃣ Create Virtual Environment
-
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
-
-### 3️⃣ Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4️⃣ Run the Application
-
-```bash
-uvicorn main:app --reload
-```
-
----
-
-## 🌐 API Documentation
+API Documentation
 
 Once the server starts, open:
-
-👉 http://127.0.0.1:8000/docs
+http://127.0.0.1:8000/docs
 
 You can test all endpoints directly using Swagger UI.
 
----
+Example API Endpoints
+Method	Endpoint	Description
+GET	/items	Get all items
+POST	/items	Create new item
+PUT	/items/{id}	Update item
+DELETE	/items/{id}	Delete item
 
-## 📊 Example API Endpoints
+Future Enhancements
 
-| Method | Endpoint    | Description     |
-| ------ | ----------- | --------------- |
-| GET    | /items      | Get all items   |
-| POST   | /items      | Create new item |
-| PUT    | /items/{id} | Update item     |
-| DELETE | /items/{id} | Delete item     |
+JWT Authentication & Authorization
+PostgreSQL Database Integration
+Docker Containerization
+Logging & Monitoring
+CI/CD Pipeline
 
----
-
-## 🚀 Future Enhancements
-
-* 🔐 JWT Authentication & Authorization
-* 🐘 PostgreSQL Database Integration
-* 📦 Docker Containerization
-* 📈 Logging & Monitoring
-* 🔄 CI/CD Pipeline
-
----
-
-## 💡 Why This Project?
+Why This Project?
 
 This project demonstrates:
+Real-world backend development practices
+Clean architecture implementation
+API design using FastAPI
+Database integration using ORM
 
-* Real-world backend development practices
-* Clean architecture implementation
-* API design using FastAPI
-* Database integration using ORM
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-Feel free to fork the repository and submit pull requests.
-
----
-
-## 📜 License
-
-This project is open-source and available under the MIT License.
-
----
-
-## 👨‍💻 Author
-
-**Shailesh Dwivedi**
-
----
-
-⭐ If you like this project, don't forget to give it a star!
-
-
+If you like this project, don't forget to give it a star!
 
